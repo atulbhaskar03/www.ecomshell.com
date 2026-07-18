@@ -1,16 +1,16 @@
-# Ecomshell Complete Website v1
+# Ecomshell Final v3 — Lemon & Orange Luxury Theme
 
-## Upload
-Extract the ZIP and upload every file directly to the root of the existing GitHub repository.
+This version uses:
+- Warm white / ivory background
+- Deep charcoal text and sections
+- Premium orange accents
+- Fresh lemon highlights
+- Gold-toned CTA gradients
 
-## Netlify
-Netlify will automatically redeploy after GitHub commit.
-Build command: leave blank
-Publish directory: .
+Upload every extracted file directly to the root of your GitHub repository.
+Netlify will automatically redeploy after the commit.
 
-## Important replacements before final promotion
-- Replace founder image placeholders with the original founder photograph.
-- Replace all sample testimonials with genuine, approved feedback.
+Before final promotion:
+- Replace founder photo placeholder with the original founder image.
+- Replace sample testimonials with genuine, approved client feedback.
 - Add verified case-study outcomes.
-- Update privacy and terms with professional legal review if required.
-- Connect the final custom domain and Google Search Console.

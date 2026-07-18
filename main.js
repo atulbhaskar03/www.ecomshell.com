@@ -12,7 +12,6 @@ document.querySelector('.next')?.addEventListener('click',()=>{show(current+1);a
 document.querySelector('.prev')?.addEventListener('click',()=>{show(current-1);auto()});
 document.querySelector('.menu')?.addEventListener('click',()=>document.querySelector('.navlinks')?.classList.toggle('open'));
 auto();
-
 const observer=new IntersectionObserver((entries)=>{
   entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible')})
 },{threshold:.12});
