@@ -1,2 +1,2 @@
-# Ecomshell Maroon Luxury Theme
-Upload all files directly to the GitHub repository root.
+# Ecomshell Editorial Luxury Theme
+Upload all files directly to your GitHub repository root.
