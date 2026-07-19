@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title">
+<title>Ecomshell logo</title>
+<defs>
+  <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#E9762B"/>
+    <stop offset="1" stop-color="#C7A96B"/>
+  </linearGradient>
+</defs>
+<circle cx="60" cy="60" r="54" fill="#0D0D0D"/>
+<path d="M30 73c10-29 31-43 60-43-8 8-13 16-15 25 8 1 15 5 20 10-12 1-21 5-28 12-8 8-13 17-15 28-12-9-19-20-22-32z" fill="url(#g)"/>
+<path d="M39 75c13-17 29-26 48-27M44 86c13-11 27-17 43-18M52 96c10-7 21-11 33-12" fill="none" stroke="#FFF7ED" stroke-width="4" stroke-linecap="round"/>
+<path d="M47 43h27" stroke="#FFF7ED" stroke-width="6" stroke-linecap="round"/>
+</svg>
