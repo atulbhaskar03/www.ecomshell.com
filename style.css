@@ -309,3 +309,28 @@ footer{
 @media(max-width:650px){
   .hero-visual{min-height:410px;border-radius:18px}
 }
+
+
+/* V10 Ultimate visual refinement */
+.hero{padding-top:118px;padding-bottom:54px}
+.hero-copy{padding:34px 0}
+.hero-copy h1{max-width:660px}
+.hero-copy p{max-width:650px}
+.hero-visual{position:relative;background:#fff;aspect-ratio:16/10;min-height:0}
+.hero-visual img{width:100%;height:100%;display:block;object-fit:cover}
+.hero-visual:before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,transparent 65%,rgba(0,48,63,.10));pointer-events:none}
+.hero-visual:after{display:none}
+.signature,.visual-label{z-index:2;backdrop-filter:blur(10px);box-shadow:0 10px 28px rgba(0,48,63,.12)}
+.signature{position:absolute;left:26px;bottom:24px;background:rgba(255,255,255,.86);border:1px solid rgba(0,48,63,.12);border-radius:16px;padding:14px 18px;color:var(--ink)}
+.signature strong{display:block;font-family:"Playfair Display",serif;font-size:1.25rem}
+.signature span{display:block;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft);margin-top:3px}
+.visual-label{left:26px;top:auto;bottom:24px;transform:none;background:rgba(255,255,255,.88);color:var(--ink)}
+.hero-controls{margin-top:18px}
+.hero-progress{height:3px;background:rgba(0,48,63,.10);border-radius:999px;overflow:hidden;max-width:250px;margin:14px auto 0}
+.hero-progress span{display:block;height:100%;width:0;background:var(--gold);animation:heroProgress 6s linear infinite}
+@keyframes heroProgress{to{width:100%}}
+.service{position:relative;overflow:hidden}
+.service:before{content:"";position:absolute;inset:0 auto 0 0;width:3px;background:var(--gold);transform:scaleY(0);transform-origin:bottom;transition:.3s}
+.service:hover:before{transform:scaleY(1)}
+@media(max-width:1000px){.hero{padding-top:105px}.hero-slider-shell{min-height:980px}.hero-visual{aspect-ratio:16/10}}
+@media(max-width:650px){.hero{padding-top:90px}.hero-slider-shell{min-height:900px}.hero-copy{padding:12px 0}.hero-visual{aspect-ratio:4/3}.signature,.visual-label{left:14px;right:14px;bottom:14px}.visual-label{text-align:center}.hero-controls{margin-top:14px}}
