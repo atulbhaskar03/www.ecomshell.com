@@ -365,3 +365,17 @@ footer{
   .service-feature{padding:16px;border-radius:20px}
   .service-feature-image{border-radius:15px}
 }
+
+/* Premium image integration — final launch edition */
+.service{overflow:hidden}
+.service .service-thumb{aspect-ratio:4/3;margin:-28px -28px 22px;border-radius:16px 16px 0 0}
+.service .service-thumb img{object-position:top center}
+.service-feature-image{aspect-ratio:3/4}
+.service-feature-image img{object-position:top center}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+}
+@media(max-width:650px){
+  .service .service-thumb{margin:-22px -22px 20px}
+  .service-feature-image{aspect-ratio:2/3}
+}
