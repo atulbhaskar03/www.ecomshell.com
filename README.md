@@ -1,14 +1,16 @@
-# Ecomshell V10 Ultimate
+# ECOMSHELL V10 Premium Image Edition
 
-Deploy-ready static website.
+Deploy-ready static website package.
 
-## Highlights
-- Sunny & Calm brand palette
-- Six-slide rectangular hero
-- Original lightweight SVG business illustrations
-- Founder, consultancy, image & legacy, AI, training and ecommerce slides
-- Responsive navigation and slider
-- Netlify-ready contact form and configuration
-- SEO metadata, sitemap and robots.txt
+## Deploy
+Upload the complete contents of this folder to Netlify or your GitHub-connected repository root.
 
-Upload the files inside this folder to the root of the GitHub repository.
+## Included
+- Premium founder hero image
+- Business Consultancy visual
+- AI Business Solutions visual
+- Branding & Digital Presence visual
+- Image & Legacy Management visual
+- Corporate Training visual
+- E-commerce Growth visual
+- Responsive image layouts and lazy loading
